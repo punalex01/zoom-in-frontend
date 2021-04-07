@@ -1,0 +1,98 @@
+
+.meetings-component-container {
+  height: 98%;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+    min-height: 20em;
+
+}
+
+.main-meeting {
+  border: 1px solid white;
+  min-height: 10em;
+  box-shadow: 0px 0px 5px rgb(138, 138, 138);
+  overflow-y: auto;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.all-container {
+  border: 1px solid white;
+  margin: 2em 0 0 0;
+  height: calc(100% - 11.5em);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 5px rgb(138, 138, 138);
+  background-color: white;
+  border-radius: 5px;
+}
+
+.flexbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar {
+  padding-right: 0.5em;
+}
+
+.add-button {
+  padding-right: 0.5em;
+}
+
+.meetings-list {
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  margin-top: 2%;
+}
+
+.meeting-container {
+  display: grid;
+  grid-auto-flow: column;
+  margin: .5em .5em;
+  border: 6px solid #dcdcdc;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  padding: 1em;
+  background-color: rgb(238, 239, 240);
+}
+
+.button-add-meeting {
+  color: #fff;
+  background: #2D8CFF;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+.button-add-meeting:hover {
+  background: #434343;
+  /* letter-spacing: 1px; */
+  transition: all 0.4s ease 0s;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+

@@ -1,0 +1,38 @@
+.meeting-name-container {
+    text-align: center;
+    font-size: 30px;
+}
+
+.desc-container {
+    text-align: left;
+    padding: 2%;
+    background-color: gainsboro;
+}
+
+.meeting-time-container {
+    text-align: left;
+    margin: auto;
+    width: 40%;
+}
+
+.tag-box {
+    margin: .5em .5em;
+    border: 6px solid #dcdcdc;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    padding: 1%;
+    background-color: gainsboro;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.button-delete {
+    margin-left: 1em;
+}
+
+.button-edit {
+    margin-right: 1em;
+}

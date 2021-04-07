@@ -1,0 +1,80 @@
+@import url(//db.onlinewebfonts.com/c/aa89b0d6377f6c3c70119e3582005446?family=Kaleko205RoundW01-Book);
+.login-background {
+    height: 100%;
+    background-color: rgb(45,140,255);
+}
+
+.login-container {
+    min-width: 15em;
+    min-height: 25em;
+    width: 30%;
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px rgb(138, 138, 138);
+    border-radius: 5px;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    background-color: white;
+    padding: 14px 20px;
+}
+
+.login-button-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 3em;
+}
+
+.login-button {
+    border: 1px white solid;
+    box-shadow: 0px 0px 5px rgb(138, 138, 138);
+    border-radius: 5px;
+}
+
+.login-logo {
+    height: 50%;
+    width: 50%;
+    margin: 0 auto 1em;
+}
+
+.login-form {
+    height: calc(100% - 3em);
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+}
+
+.login-input {
+    height: 10%;
+    margin: 1em auto;
+    width: 99%;
+    border: 1px white solid;
+    box-shadow: 0px 0px 5px rgb(138, 138, 138);
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.submit-login {
+    height: 15%;
+    margin-bottom: 10%;
+    background-color: #434343;
+    color: white;
+    border-radius: 3px;
+    border: 0;
+}
+
+.submit-login:hover {
+    background-color: rgb(45,140,255);
+    transition: all 0.4s ease 0s;
+
+}
+
+.login-title {
+    margin: 0 auto 0;
+    font-family: "Kaleko205RoundW01-Book"; 
+    font-size: 32px;
+
+}
+.login-button:hover {
+  opacity: 0.8;
+}

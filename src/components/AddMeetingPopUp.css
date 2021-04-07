@@ -1,0 +1,42 @@
+
+.pop-up {  
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    top: 0;
+    left: 0;
+    bottom:0;
+    right:0;
+
+  }
+  
+.pop-up_content {
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    padding: 20px;
+    border: 6px solid white;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  
+
+.close {
+    color: Black;
+    float: right;
+  }
+  
+.close:hover {
+    color: red;
+    cursor: pointer;
+  }
+  
+.day-of-week:hover {
+  color: green;
+  cursor: pointer;
+}

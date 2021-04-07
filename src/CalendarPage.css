@@ -1,0 +1,75 @@
+
+.calendar-page {
+  display: flex;
+  grid-template-columns: 30% 70%;
+  height: calc(100% - 8em);
+  margin-top: 1em;
+}
+
+.calendar-page-all-container {
+  margin: 0 2em 0 2em;
+  height: 100%;
+  max-height: 100%;
+  width: 30%;
+  float:left;
+}
+
+
+.calendar-page-meetings-list {
+  overflow: scroll;
+  height: 100%;
+  margin-top: 1em;
+}
+
+
+.calendar-header {
+  width: 20%;
+  float:left;
+}
+
+.calendar-legend {
+  border: 1px solid black;
+  width: 50%;
+  float:right;
+}
+
+.calendar-display {
+  border: 1px solid black;
+  margin: 5em 1em 0 1em;
+  height: 83%;
+}
+
+
+
+.calendar-container {
+  border: 1px solid white;
+  width: 95%;
+  height: 100%;
+  max-height: 100%;
+  min-width: 50em;
+  margin-right: 2em;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  box-shadow: 0px 0px 5px rgb(138, 138, 138);
+  background-color: white;
+  border-radius: 5px;
+}
+
+.legend-tags {
+  margin: 1em 0;
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+
+.tag-color {
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: auto 0;
+  margin-left: 1em;
+}
+
+.rbc-calendar {
+  overflow: scroll;
+}

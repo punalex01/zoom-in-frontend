@@ -1,0 +1,52 @@
+@import url(//db.onlinewebfonts.com/c/aa89b0d6377f6c3c70119e3582005446?family=Kaleko205RoundW01-Book);
+
+.header-container {
+    display: grid;
+    grid-template-columns:auto;
+    height: 3em;
+    margin: 0 0;
+    grid-auto-flow: column;
+    box-shadow: 0px 0px 10px rgb(120, 122, 148);
+  }
+
+.header-text {
+  background: #434343;
+  border: none;
+  /* border-color: white; //adds white line divider between buttons
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0; */
+  margin: 0px 0px;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+  outline: none;
+  
+}
+
+.header-text:hover {
+  background: #2D8CFF;
+
+  letter-spacing: 1px;
+  transition: all 0.4s ease 0s;
+}
+
+.welcome-back {
+  font-size: 17px; 
+  font-weight: bold;
+}
+
+.zoom-in-title {
+  background: white;
+  border: none;
+  margin: 0px 0px;
+  font-size: 18px;
+  font-weight: bold;
+  outline: none;
+  font-family: "Kaleko205RoundW01-Book"; 
+}
+
+.zoom-in-title:focus {
+  background-color: white;
+  border: none;
+}
