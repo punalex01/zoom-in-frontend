@@ -54,7 +54,7 @@
   display: grid;
   grid-auto-flow: column;
   margin: .5em .5em;
-  border: solid #dcdcdc;
+  border: solid rgb(238, 239, 240);
   border-top-width: 0px;
   border-right-width: 0px;
   border-bottom-width: 0px;
