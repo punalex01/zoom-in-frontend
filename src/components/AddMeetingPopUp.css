@@ -19,10 +19,11 @@
     left: 30%;
     width: 40%;
     padding: 20px;
-    border: 6px solid white;
+    border: solid #dcdcdc;
     border-top-width: 0px;
     border-right-width: 0px;
     border-bottom-width: 0px;
+    border-left-width: 6px;
   }
   
 
