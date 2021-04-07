@@ -426,7 +426,7 @@ class AddMeetingPopUp extends React.Component {
                     <input type="text" name="tagName" id="tagName" placeholder="Tag Name"
                         value= {this.state.tagName} onChange={(e)=>this.setState({tagName:e.target.value})}/>
                     <label htmlFor="tagColor">  Tag Color </label>
-                    <input type="color" name="tagColor" id="tagColor" placeholder="#dcdcdc"
+                    <input type="color" name="tagColor" id="tagColor" placeholder="#eeeff0"
                         value= {this.state.tagColor} onChange={(e)=>this.setState({tagColor:e.target.value})}/>
                   </div>
                 </div>
