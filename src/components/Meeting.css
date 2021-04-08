@@ -54,13 +54,13 @@
   display: grid;
   grid-auto-flow: column;
   margin: .5em .5em;
-  border: solid #dcdcdc;
+  border: solid #eeeff0;
   border-top-width: 0px;
   border-right-width: 0px;
   border-bottom-width: 0px;
   border-left-width: 6px;
   padding: 1em;
-  background-color: rgb(238, 239, 240);
+  background-color: #eeeff0;
 }
 
 .button-add-meeting {
